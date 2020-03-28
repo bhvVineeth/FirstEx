@@ -1,0 +1,100 @@
+*
+{
+ padding: 0;
+ margin: 0;
+}
+header
+{
+ background-image: url(backgroundImage.jpeg);
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+}
+.main-nav
+{
+ float: right;
+ list-style: none;
+ margin-top: 30px;
+}
+.main-nav li
+{
+ display: inline-block;
+}
+.main-nav li a
+{
+ color: white;
+ padding: 5px 20px;
+ 
+ font-family: "Roboto" sans-serif;
+ font-size: 15px; 
+}
+.main-nav li.active
+{
+ border: 1px solid white;
+}
+.main-nav li:hover
+{
+ border: 1px solid white;
+}
+.logo img
+{
+ width: 150px;
+ height: auto;
+ float: left;
+}
+.row
+{
+ max-width: 1200px;
+ margin: auto;
+}
+.hero
+{
+ position: absolute;
+ width: 1200px;
+ margin-left: 0px;
+ margin-right: 0px; 
+}
+.hero h1
+{
+ color: white;
+ text-align: center;
+ font-size: 100px;
+ margin-top: 275px;
+ text-transform: uppercase; 
+}
+.button
+{
+ margin-top: 30px;
+ margin-left: 440px;
+}
+.btn
+{
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+.btn-one
+{
+ background-color: darkorange;
+ font-family: Arial;
+}
+.btn-two
+{
+ font-family: Arial;
+}
+.btn-two:hover
+{
+ background-color: darkorange;
+ transistion: all 5s ease-in;
+}
+
+
+
+
+
